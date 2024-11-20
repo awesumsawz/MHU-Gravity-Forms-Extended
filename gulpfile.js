@@ -5,7 +5,7 @@ const concat = require('gulp-concat');
 
 // Compile SCSS files to CSS
 gulp.task('styles', function() {
-  return gulp.src('src/scss/**/*.scss')
+  return gulp.src('src/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dist/css'));
 });

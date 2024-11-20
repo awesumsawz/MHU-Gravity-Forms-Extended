@@ -1,11 +1,10 @@
 // parts
-@import "./settings_variables.scss";
-@import "./settings_mixins.scss";
+@use "./settings_variables.scss";
+@use "./settings_mixins.scss";
 
 // build
-@import "./settings_fonts.scss";
-@import "./settings_visibility.scss";
+@use "./settings_fonts.scss";
+@use "./settings_visibility.scss";
 
 // details
-@import "./settings_default.scss";
-@import "./settings_learndash.scss";
+@use "./settings_default.scss";
