@@ -1,0 +1,64 @@
+body.page {
+  margin-bottom: 1px;
+}
+
+main {
+  padding-inline: 2rem;
+  section#banner {
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $colorPurpleDark;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    h1 {
+      margin-bottom: 0;
+    }
+    & > * {
+      position: relative;
+      z-index: $zIndexMiddle;
+    }
+    .wrapper {
+      padding-block: 5rem;
+    }
+    img {
+      max-width: 50rem;
+      width: 100%;
+    }
+    .bannerTop {
+      text-align: center;
+      @media screen and (max-width: 30rem) {
+        font-size: 3rem;
+      }
+    }
+    .overlay {
+      position: absolute;
+      z-index: $zIndexBottom;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: $colorWhite;
+      opacity: 80%;
+    }
+  }
+  section#body {
+    padding-block: 2rem;
+    max-width: 100rem;
+    margin-inline: auto;
+    a {
+      color: $colorPurpleDark;
+      text-decoration: underline;
+      &:hover {
+        color: $colorGreenHover;
+      }
+    }
+    li {
+      font-size: $fontSizeP;
+    }
+  }
+}
