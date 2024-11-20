@@ -1,0 +1,81 @@
+// COPSE IMPORTS
+$copse-font-path: "/wp-content/themes/model-horse-university-child/library/fonts/Copse/";
+@font-face {
+    font-family: "Copse";
+    src: url( $copse-font-path + "Copse-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+// MULISH IMPORTS
+$mulish-font-path: "/wp-content/themes/model-horse-university-child/library/fonts/Mulish/";
+@font-face {
+    font-family: "Mulish";
+    src: url( $mulish-font-path + "Mulish-VariableFont_wgnt.ttf") format("truetype-variations");
+    src: url( $mulish-font-path + "static/Mulish-Regular.ttf") format("truetype");
+    font-weight: 1 999;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mulish";
+    src: url( $mulish-font-path + "Mulish-Italic-VariableFont_wgnt.ttf") format("truetype-variations");
+    src: url( $mulish-font-path + "static/Mulish-italic.ttf") format("truetype");
+    font-weight: 1 999;
+    font-style: italic;
+}
+
+// font settings
+html {
+    font-size: 62.5%;
+    h1,
+    .h1 {
+        font-size: $fontSizeH1;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    h2,
+    .h2 {
+        font-size: $fontSizeH2;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    h3,
+    .h3 {
+        font-size: $fontSizeH3;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    h4,
+    .h4 {
+        font-size: $fontSizeH4;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    h5,
+    .h5 {
+        font-size: $fontSizeH5;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    h6,
+    .h6 {
+        font-size: $fontSizeH6;
+        font-family: $fontDisplay;
+        margin: 0 0 1rem 0;
+    }
+    p,
+    .p {
+        font-size: 1.8rem;
+        font-family: $fontSans;
+        font-weight: normal;
+        margin: 0 0 1rem 0;
+    }
+    a {
+        text-decoration: none;
+        color: unset;
+        &:visited {
+            color: inherit;
+        }
+        &:focus {
+            color: inherit;
+        }
+    }
+}

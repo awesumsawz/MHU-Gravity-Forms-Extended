@@ -1,0 +1,44 @@
+/* ----------------------------------------------------------------------------
+ * 0. Visibility Generalizations
+ * ----------------------------------------------------------------------------
+ */
+// Hidden/Visible
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
+// Show/Hide
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+// Desktop/Tablet/Mobile
+.desktopView {
+  display: block;
+}
+.tabletView {
+  display: none;
+}
+.mobileView {
+  display: none;
+}
+@media screen and (max-width: 50em) {
+  .desktopView {
+    display: none !important;
+  }
+  .tabletView {
+    display: block !important;
+  }
+}
+@media only screen and ( max-width: 30em ) {
+  .tabletView {
+    display: none !important;
+  }
+  .mobileView {
+    display: block !important;
+  }
+}
