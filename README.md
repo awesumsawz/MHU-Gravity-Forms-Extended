@@ -14,5 +14,8 @@ gulp watch
 ```
 
 ## Interface Examples
-![admin-view](https://github.com/user-attachments/assets/56f0a9a4-d9d5-4b52-8811-433d0e784cea)
+Frontend:
 ![template-view](https://github.com/user-attachments/assets/3cd4c9cd-810a-4a2f-956e-436770dedd26)
+
+Admin:
+![admin-view](https://github.com/user-attachments/assets/56f0a9a4-d9d5-4b52-8811-433d0e784cea)
