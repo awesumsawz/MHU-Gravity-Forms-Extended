@@ -1,0 +1,2357 @@
+{
+  "0": {
+    "fields": [
+      {
+        "type": "name",
+        "id": 1,
+        "formId": 1,
+        "label": "Name",
+        "adminLabel": "",
+        "isRequired": true,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "nameFormat": "advanced",
+        "inputs": [
+          {
+            "id": "1.2",
+            "label": "Prefix",
+            "name": "",
+            "autocompleteAttribute": "honorific-prefix",
+            "choices": [
+              {
+                "text": "Dr.",
+                "value": "Dr."
+              },
+              {
+                "text": "Miss",
+                "value": "Miss"
+              },
+              {
+                "text": "Mr.",
+                "value": "Mr."
+              },
+              {
+                "text": "Mrs.",
+                "value": "Mrs."
+              },
+              {
+                "text": "Ms.",
+                "value": "Ms."
+              },
+              {
+                "text": "Mx.",
+                "value": "Mx."
+              },
+              {
+                "text": "Prof.",
+                "value": "Prof."
+              },
+              {
+                "text": "Rev.",
+                "value": "Rev."
+              }
+            ],
+            "isHidden": true,
+            "inputType": "radio"
+          },
+          {
+            "id": "1.3",
+            "label": "First",
+            "name": "",
+            "autocompleteAttribute": "given-name"
+          },
+          {
+            "id": "1.4",
+            "label": "Middle",
+            "name": "",
+            "autocompleteAttribute": "additional-name",
+            "isHidden": true
+          },
+          {
+            "id": "1.6",
+            "label": "Last",
+            "name": "",
+            "autocompleteAttribute": "family-name"
+          },
+          {
+            "id": "1.8",
+            "label": "Suffix",
+            "name": "",
+            "autocompleteAttribute": "honorific-suffix",
+            "isHidden": true
+          }
+        ],
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "96d382c6",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "select",
+        "id": 3,
+        "formId": 1,
+        "label": "Home Country",
+        "adminLabel": "",
+        "isRequired": true,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "validateState": true,
+        "inputs": null,
+        "choices": [
+          {
+            "text": "Afghanistan",
+            "value": "Afghanistan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Albania",
+            "value": "Albania",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Algeria",
+            "value": "Algeria",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "American Samoa",
+            "value": "American Samoa",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Andorra",
+            "value": "Andorra",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Angola",
+            "value": "Angola",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Anguilla",
+            "value": "Anguilla",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Antarctica",
+            "value": "Antarctica",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Antigua and Barbuda",
+            "value": "Antigua and Barbuda",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Argentina",
+            "value": "Argentina",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Armenia",
+            "value": "Armenia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Aruba",
+            "value": "Aruba",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Australia",
+            "value": "Australia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Austria",
+            "value": "Austria",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Azerbaijan",
+            "value": "Azerbaijan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bahamas",
+            "value": "Bahamas",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bahrain",
+            "value": "Bahrain",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bangladesh",
+            "value": "Bangladesh",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Barbados",
+            "value": "Barbados",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Belarus",
+            "value": "Belarus",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Belgium",
+            "value": "Belgium",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Belize",
+            "value": "Belize",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Benin",
+            "value": "Benin",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bermuda",
+            "value": "Bermuda",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bhutan",
+            "value": "Bhutan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bolivia",
+            "value": "Bolivia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bonaire, Sint Eustatius and Saba",
+            "value": "Bonaire, Sint Eustatius and Saba",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bosnia and Herzegovina",
+            "value": "Bosnia and Herzegovina",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Botswana",
+            "value": "Botswana",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bouvet Island",
+            "value": "Bouvet Island",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Brazil",
+            "value": "Brazil",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "British Indian Ocean Territory",
+            "value": "British Indian Ocean Territory",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Brunei Darussalam",
+            "value": "Brunei Darussalam",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Bulgaria",
+            "value": "Bulgaria",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Burkina Faso",
+            "value": "Burkina Faso",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Burundi",
+            "value": "Burundi",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cabo Verde",
+            "value": "Cabo Verde",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cambodia",
+            "value": "Cambodia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cameroon",
+            "value": "Cameroon",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Canada",
+            "value": "Canada",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cayman Islands",
+            "value": "Cayman Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Central African Republic",
+            "value": "Central African Republic",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Chad",
+            "value": "Chad",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Chile",
+            "value": "Chile",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "China",
+            "value": "China",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Christmas Island",
+            "value": "Christmas Island",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cocos Islands",
+            "value": "Cocos Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Colombia",
+            "value": "Colombia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Comoros",
+            "value": "Comoros",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Congo",
+            "value": "Congo",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Congo, Democratic Republic of the",
+            "value": "Congo, Democratic Republic of the",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cook Islands",
+            "value": "Cook Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Costa Rica",
+            "value": "Costa Rica",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Croatia",
+            "value": "Croatia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cuba",
+            "value": "Cuba",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Curaçao",
+            "value": "Curaçao",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Cyprus",
+            "value": "Cyprus",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Czechia",
+            "value": "Czechia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Côte d'Ivoire",
+            "value": "Côte d'Ivoire",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Denmark",
+            "value": "Denmark",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Djibouti",
+            "value": "Djibouti",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Dominica",
+            "value": "Dominica",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Dominican Republic",
+            "value": "Dominican Republic",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Ecuador",
+            "value": "Ecuador",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Egypt",
+            "value": "Egypt",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "El Salvador",
+            "value": "El Salvador",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Equatorial Guinea",
+            "value": "Equatorial Guinea",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Eritrea",
+            "value": "Eritrea",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Estonia",
+            "value": "Estonia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Eswatini",
+            "value": "Eswatini",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Ethiopia",
+            "value": "Ethiopia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Falkland Islands",
+            "value": "Falkland Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Faroe Islands",
+            "value": "Faroe Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Fiji",
+            "value": "Fiji",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Finland",
+            "value": "Finland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "France",
+            "value": "France",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "French Guiana",
+            "value": "French Guiana",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "French Polynesia",
+            "value": "French Polynesia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "French Southern Territories",
+            "value": "French Southern Territories",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Gabon",
+            "value": "Gabon",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Gambia",
+            "value": "Gambia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Georgia",
+            "value": "Georgia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Germany",
+            "value": "Germany",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Ghana",
+            "value": "Ghana",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Gibraltar",
+            "value": "Gibraltar",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Greece",
+            "value": "Greece",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Greenland",
+            "value": "Greenland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Grenada",
+            "value": "Grenada",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guadeloupe",
+            "value": "Guadeloupe",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guam",
+            "value": "Guam",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guatemala",
+            "value": "Guatemala",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guernsey",
+            "value": "Guernsey",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guinea",
+            "value": "Guinea",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guinea-Bissau",
+            "value": "Guinea-Bissau",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Guyana",
+            "value": "Guyana",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Haiti",
+            "value": "Haiti",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Heard Island and McDonald Islands",
+            "value": "Heard Island and McDonald Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Holy See",
+            "value": "Holy See",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Honduras",
+            "value": "Honduras",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Hong Kong",
+            "value": "Hong Kong",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Hungary",
+            "value": "Hungary",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Iceland",
+            "value": "Iceland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "India",
+            "value": "India",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Indonesia",
+            "value": "Indonesia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Iran",
+            "value": "Iran",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Iraq",
+            "value": "Iraq",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Ireland",
+            "value": "Ireland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Isle of Man",
+            "value": "Isle of Man",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Israel",
+            "value": "Israel",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Italy",
+            "value": "Italy",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Jamaica",
+            "value": "Jamaica",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Japan",
+            "value": "Japan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Jersey",
+            "value": "Jersey",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Jordan",
+            "value": "Jordan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Kazakhstan",
+            "value": "Kazakhstan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Kenya",
+            "value": "Kenya",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Kiribati",
+            "value": "Kiribati",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Korea, Democratic People's Republic of",
+            "value": "Korea, Democratic People's Republic of",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Korea, Republic of",
+            "value": "Korea, Republic of",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Kuwait",
+            "value": "Kuwait",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Kyrgyzstan",
+            "value": "Kyrgyzstan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Lao People's Democratic Republic",
+            "value": "Lao People's Democratic Republic",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Latvia",
+            "value": "Latvia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Lebanon",
+            "value": "Lebanon",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Lesotho",
+            "value": "Lesotho",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Liberia",
+            "value": "Liberia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Libya",
+            "value": "Libya",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Liechtenstein",
+            "value": "Liechtenstein",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Lithuania",
+            "value": "Lithuania",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Luxembourg",
+            "value": "Luxembourg",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Macao",
+            "value": "Macao",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Madagascar",
+            "value": "Madagascar",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Malawi",
+            "value": "Malawi",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Malaysia",
+            "value": "Malaysia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Maldives",
+            "value": "Maldives",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mali",
+            "value": "Mali",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Malta",
+            "value": "Malta",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Marshall Islands",
+            "value": "Marshall Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Martinique",
+            "value": "Martinique",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mauritania",
+            "value": "Mauritania",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mauritius",
+            "value": "Mauritius",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mayotte",
+            "value": "Mayotte",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mexico",
+            "value": "Mexico",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Micronesia",
+            "value": "Micronesia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Moldova",
+            "value": "Moldova",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Monaco",
+            "value": "Monaco",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mongolia",
+            "value": "Mongolia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Montenegro",
+            "value": "Montenegro",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Montserrat",
+            "value": "Montserrat",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Morocco",
+            "value": "Morocco",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Mozambique",
+            "value": "Mozambique",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Myanmar",
+            "value": "Myanmar",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Namibia",
+            "value": "Namibia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Nauru",
+            "value": "Nauru",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Nepal",
+            "value": "Nepal",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Netherlands",
+            "value": "Netherlands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "New Caledonia",
+            "value": "New Caledonia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "New Zealand",
+            "value": "New Zealand",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Nicaragua",
+            "value": "Nicaragua",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Niger",
+            "value": "Niger",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Nigeria",
+            "value": "Nigeria",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Niue",
+            "value": "Niue",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Norfolk Island",
+            "value": "Norfolk Island",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "North Macedonia",
+            "value": "North Macedonia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Northern Mariana Islands",
+            "value": "Northern Mariana Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Norway",
+            "value": "Norway",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Oman",
+            "value": "Oman",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Pakistan",
+            "value": "Pakistan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Palau",
+            "value": "Palau",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Palestine, State of",
+            "value": "Palestine, State of",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Panama",
+            "value": "Panama",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Papua New Guinea",
+            "value": "Papua New Guinea",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Paraguay",
+            "value": "Paraguay",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Peru",
+            "value": "Peru",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Philippines",
+            "value": "Philippines",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Pitcairn",
+            "value": "Pitcairn",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Poland",
+            "value": "Poland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Portugal",
+            "value": "Portugal",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Puerto Rico",
+            "value": "Puerto Rico",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Qatar",
+            "value": "Qatar",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Romania",
+            "value": "Romania",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Russian Federation",
+            "value": "Russian Federation",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Rwanda",
+            "value": "Rwanda",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Réunion",
+            "value": "Réunion",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Barthélemy",
+            "value": "Saint Barthélemy",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Helena, Ascension and Tristan da Cunha",
+            "value": "Saint Helena, Ascension and Tristan da Cunha",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Kitts and Nevis",
+            "value": "Saint Kitts and Nevis",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Lucia",
+            "value": "Saint Lucia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Martin",
+            "value": "Saint Martin",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Pierre and Miquelon",
+            "value": "Saint Pierre and Miquelon",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saint Vincent and the Grenadines",
+            "value": "Saint Vincent and the Grenadines",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Samoa",
+            "value": "Samoa",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "San Marino",
+            "value": "San Marino",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sao Tome and Principe",
+            "value": "Sao Tome and Principe",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Saudi Arabia",
+            "value": "Saudi Arabia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Senegal",
+            "value": "Senegal",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Serbia",
+            "value": "Serbia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Seychelles",
+            "value": "Seychelles",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sierra Leone",
+            "value": "Sierra Leone",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Singapore",
+            "value": "Singapore",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sint Maarten",
+            "value": "Sint Maarten",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Slovakia",
+            "value": "Slovakia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Slovenia",
+            "value": "Slovenia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Solomon Islands",
+            "value": "Solomon Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Somalia",
+            "value": "Somalia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "South Africa",
+            "value": "South Africa",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "South Georgia and the South Sandwich Islands",
+            "value": "South Georgia and the South Sandwich Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "South Sudan",
+            "value": "South Sudan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Spain",
+            "value": "Spain",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sri Lanka",
+            "value": "Sri Lanka",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sudan",
+            "value": "Sudan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Suriname",
+            "value": "Suriname",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Svalbard and Jan Mayen",
+            "value": "Svalbard and Jan Mayen",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Sweden",
+            "value": "Sweden",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Switzerland",
+            "value": "Switzerland",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Syria Arab Republic",
+            "value": "Syria Arab Republic",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Taiwan",
+            "value": "Taiwan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tajikistan",
+            "value": "Tajikistan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tanzania, the United Republic of",
+            "value": "Tanzania, the United Republic of",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Thailand",
+            "value": "Thailand",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Timor-Leste",
+            "value": "Timor-Leste",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Togo",
+            "value": "Togo",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tokelau",
+            "value": "Tokelau",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tonga",
+            "value": "Tonga",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Trinidad and Tobago",
+            "value": "Trinidad and Tobago",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tunisia",
+            "value": "Tunisia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Turkmenistan",
+            "value": "Turkmenistan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Turks and Caicos Islands",
+            "value": "Turks and Caicos Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Tuvalu",
+            "value": "Tuvalu",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Türkiye",
+            "value": "Türkiye",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "US Minor Outlying Islands",
+            "value": "US Minor Outlying Islands",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Uganda",
+            "value": "Uganda",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Ukraine",
+            "value": "Ukraine",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "United Arab Emirates",
+            "value": "United Arab Emirates",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "United Kingdom",
+            "value": "United Kingdom",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "United States",
+            "value": "United States",
+            "isSelected": true,
+            "price": ""
+          },
+          {
+            "text": "Uruguay",
+            "value": "Uruguay",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Uzbekistan",
+            "value": "Uzbekistan",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Vanuatu",
+            "value": "Vanuatu",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Venezuela",
+            "value": "Venezuela",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Viet Nam",
+            "value": "Viet Nam",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Virgin Islands, British",
+            "value": "Virgin Islands, British",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Virgin Islands, U.S.",
+            "value": "Virgin Islands, U.S.",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Wallis and Futuna",
+            "value": "Wallis and Futuna",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Western Sahara",
+            "value": "Western Sahara",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Yemen",
+            "value": "Yemen",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Zambia",
+            "value": "Zambia",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Zimbabwe",
+            "value": "Zimbabwe",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Åland Islands",
+            "value": "Åland Islands",
+            "isSelected": false,
+            "price": ""
+          }
+        ],
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enablePrice": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "822cdd74",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "textarea",
+        "id": 4,
+        "formId": 1,
+        "label": "About",
+        "adminLabel": "",
+        "isRequired": true,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "Tell us a bit about you and your relationship to the hobby (1000 character max)",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 1000,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": true,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "form_id": "",
+        "useRichTextEditor": false,
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "cf15ff07",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "errors": [],
+        "checkboxLabel": "",
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "email",
+        "id": 5,
+        "formId": 1,
+        "label": "Email",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "autocompleteAttribute": "email",
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": "",
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "choices": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "emailConfirmEnabled": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "57a7073b",
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "checkbox",
+        "id": 6,
+        "formId": 1,
+        "label": "Socials",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "choices": [
+          {
+            "text": "Instagram",
+            "value": "Instagram",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Reddit",
+            "value": "Reddit",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "TikTok",
+            "value": "TikTok",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Twitch",
+            "value": "Twitch",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Twitter",
+            "value": "Twitter",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "YouTube",
+            "value": "YouTube",
+            "isSelected": false,
+            "price": ""
+          }
+        ],
+        "validateState": true,
+        "inputs": [
+          {
+            "id": "6.1",
+            "label": "Instagram",
+            "name": ""
+          },
+          {
+            "id": "6.2",
+            "label": "Reddit",
+            "name": ""
+          },
+          {
+            "id": "6.3",
+            "label": "TikTok",
+            "name": ""
+          },
+          {
+            "id": "6.4",
+            "label": "Twitch",
+            "name": ""
+          },
+          {
+            "id": "6.5",
+            "label": "Twitter",
+            "name": ""
+          },
+          {
+            "id": "6.6",
+            "label": "YouTube",
+            "name": ""
+          }
+        ],
+        "description": "Which Social platforms would you like to share?",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enableSelectAll": "",
+        "enablePrice": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "3cd3e6ab",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "checkboxLabel": "",
+        "enableChoiceValue": false,
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "text",
+        "id": 7,
+        "formId": 1,
+        "label": "What is your Instagram Username?",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 100,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "Instagram"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enablePasswordInput": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "81a786aa",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "text",
+        "id": 8,
+        "formId": 1,
+        "label": "What is your Reddit Username:",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 100,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "Reddit"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enablePasswordInput": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "e4d7a7e7",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "text",
+        "id": 9,
+        "formId": 1,
+        "label": "What is your TikTok Username?",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 100,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "TikTok"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enablePasswordInput": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "67e1ee5a",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "text",
+        "id": 12,
+        "formId": 1,
+        "label": "What is your Twitch Username?",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 100,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "Twitch"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": 12,
+        "enablePasswordInput": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "c8a219d9",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "text",
+        "id": 11,
+        "formId": 1,
+        "label": "What is your Twitter Username?",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": 100,
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "Twitter"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": 12,
+        "enablePasswordInput": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "7508932d",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "website",
+        "id": 14,
+        "formId": 1,
+        "label": "What is your Youtube URL?",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "visible",
+        "inputs": null,
+        "placeholder": "https://",
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "choices": "",
+        "conditionalLogic": {
+          "enabled": true,
+          "actionType": "show",
+          "logicType": "all",
+          "rules": [
+            {
+              "fieldId": "6",
+              "operator": "is",
+              "value": "YouTube"
+            }
+          ]
+        },
+        "productField": "",
+        "layoutGridColumnSpan": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "ff1f0fd9",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      },
+      {
+        "type": "select",
+        "id": 15,
+        "formId": 1,
+        "label": "Approval Status",
+        "adminLabel": "",
+        "isRequired": false,
+        "size": "large",
+        "errorMessage": "",
+        "visibility": "hidden",
+        "validateState": true,
+        "inputs": null,
+        "choices": [
+          {
+            "text": "Pending",
+            "value": "Pending",
+            "isSelected": true,
+            "price": ""
+          },
+          {
+            "text": "Approved",
+            "value": "Approved",
+            "isSelected": false,
+            "price": ""
+          },
+          {
+            "text": "Rejected",
+            "value": "Rejected",
+            "isSelected": false,
+            "price": ""
+          }
+        ],
+        "description": "",
+        "allowsPrepopulate": false,
+        "inputMask": false,
+        "inputMaskValue": "",
+        "inputMaskIsCustom": false,
+        "maxLength": "",
+        "labelPlacement": "",
+        "descriptionPlacement": "",
+        "subLabelPlacement": "",
+        "placeholder": "",
+        "cssClass": "",
+        "inputName": "",
+        "noDuplicates": false,
+        "defaultValue": "",
+        "enableAutocomplete": false,
+        "autocompleteAttribute": "",
+        "conditionalLogic": "",
+        "productField": "",
+        "layoutGridColumnSpan": 12,
+        "enablePrice": "",
+        "enableEnhancedUI": 0,
+        "layoutGroupId": "36924a27",
+        "multipleFiles": false,
+        "maxFiles": "",
+        "calculationFormula": "",
+        "calculationRounding": "",
+        "enableCalculation": "",
+        "disableQuantity": false,
+        "displayAllCategories": false,
+        "useRichTextEditor": false,
+        "errors": [],
+        "fields": "",
+        "displayOnly": ""
+      }
+    ],
+    "button": {
+      "type": "text",
+      "text": "Submit",
+      "imageUrl": "",
+      "width": "auto",
+      "location": "bottom",
+      "layoutGridColumnSpan": 12,
+      "id": "submit"
+    },
+    "title": "Join The Community",
+    "description": "Fill out the application and upon approval, you'll be added to our list of community members!",
+    "version": "2.8.18",
+    "id": 1,
+    "markupVersion": 2,
+    "nextFieldId": 16,
+    "useCurrentUserAsAuthor": true,
+    "postContentTemplateEnabled": false,
+    "postTitleTemplateEnabled": false,
+    "postTitleTemplate": "",
+    "postContentTemplate": "",
+    "lastPageButton": null,
+    "pagination": null,
+    "firstPageCssClass": null,
+    "labelPlacement": "top_label",
+    "descriptionPlacement": "above",
+    "validationPlacement": "below",
+    "subLabelPlacement": "below",
+    "validationSummary": "1",
+    "requiredIndicator": "text",
+    "customRequiredIndicator": "(Required)",
+    "cssClass": "",
+    "saveButtonText": "Save & Continue",
+    "limitEntries": false,
+    "limitEntriesCount": "",
+    "limitEntriesPeriod": "",
+    "limitEntriesMessage": "",
+    "scheduleForm": false,
+    "scheduleStart": "",
+    "scheduleEnd": "",
+    "schedulePendingMessage": "",
+    "scheduleMessage": "",
+    "requireLogin": false,
+    "requireLoginMessage": "",
+    "enableHoneypot": true,
+    "honeypotAction": "abort",
+    "deprecated": "",
+    "saveEnabled": "",
+    "enableAnimation": false,
+    "save": {
+      "enabled": false,
+      "button": {
+        "type": "link",
+        "text": "Save & Continue"
+      }
+    },
+    "scheduleStartHour": "",
+    "scheduleStartMinute": "",
+    "scheduleStartAmpm": "",
+    "scheduleEndHour": "",
+    "scheduleEndMinute": "",
+    "scheduleEndAmpm": "",
+    "confirmations": [
+      {
+        "id": "6737bf413916b",
+        "name": "Default Confirmation",
+        "isDefault": true,
+        "type": "message",
+        "message": "Thanks for contacting us! We will get in touch with you shortly.",
+        "url": "",
+        "pageId": "",
+        "queryString": ""
+      }
+    ],
+    "notifications": [
+      {
+        "id": "6737bf4138787",
+        "isActive": true,
+        "to": "{admin_email}",
+        "name": "Admin Notification",
+        "event": "form_submission",
+        "toType": "email",
+        "subject": "New submission from {form_title}",
+        "message": "{all_fields}"
+      }
+    ]
+  },
+  "version": "2.8.18"
+}
