@@ -1,60 +1,60 @@
 @mixin sectionWrapper {
-  max-width: $maxWidthStandard;
-  margin-inline: auto;
-  padding: $spacingM;
+    max-width: $maxWidthStandard;
+    margin-inline: auto;
+    padding: $spacingM;
 }
 
 @mixin modal-dialog {
-  max-width: 700px;
-  font-size: $fontSizeP;
-  h3 {
-    font-size: $fontSizeH1;
-  }
-  button {
+    max-width: 700px;
     font-size: $fontSizeP;
-    &.btn-close {
-      font-size: 28px;
+    h3 {
+        font-size: $fontSizeH1;
     }
-    &.btn-secondary {
-      background-color: $colorPurpleLight;
-      border: none;
-      &:hover {
-        background-color: $colorPurpleDark;
-      }
+    button {
+        font-size: $fontSizeP;
+        &.btn-close {
+            font-size: 28px;
+        }
+        &.btn-secondary {
+            background-color: $colorPurpleLight;
+            border: none;
+            &:hover {
+                background-color: $colorPurpleDark;
+            }
+        }
     }
-  }
-  .modal-title {
-    padding-left: 20px;
-  }
-  .row {
-    padding-bottom: 10px;
-  }
-  .col-sm-2 {
-    text-align: right !important;
-    @media screen and (max-width: 576px) {
-      text-align: left !important;
+    .modal-title {
+        padding-left: 20px;
     }
-  }
+    .row {
+        padding-bottom: 10px;
+    }
+    .col-sm-2 {
+        text-align: right !important;
+        @media screen and (max-width: 576px) {
+            text-align: left !important;
+        }
+    }
 }
 
 @mixin modal-close-btn {
-  background-color: transparent;
-  color: $colorPurpleDark;
-  border: none;
-  font-size: $fontSizeP;
-  &:hover {
-    color: $colorPurpleLight;
-  }
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
+    background-color: transparent;
+    color: $colorPurpleDark;
+    border: none;
+    font-size: $fontSizeP;
+    &:hover {
+        color: $colorPurpleLight;
+    }
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
 }
 
 @mixin modal-page-button {
-  font-size: $fontSizeP;
-  background-color: $colorPurpleDark;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+    font-size: $fontSizeP;
+    background-color: $colorPurpleDark;
+    color: white;
+    border: none;
+    padding: 10px 20px;
 }

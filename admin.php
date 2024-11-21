@@ -18,44 +18,44 @@ $form_id = 1;
 $entries = \GFAPI::get_entries($form_id);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $action = '';
+    $action = '';
 
-  if (isset($_POST['approve_entry'])) {
-    $entry_id = intval($_POST['entry_id']);
-    $action = 'approve';
-  } elseif (isset($_POST['deny_entry'])) {
-    $entry_id = intval($_POST['entry_id']);
-    $action = 'deny';
-  } elseif (isset($_POST['delete_member'])) {
-    $member_id = intval($_POST['member_id']);
-    $admin_actions->delete_member($member_id);
-    update_member_status($approved_members, $member_id, 'deleted');
-  }
-
-  if ($action) {
-    $method = $action . '_entry';
-    if ($admin_actions->$method($entry_id)) {
-      update_entry_status($entries, $entry_id, $action);
+    if (isset($_POST['approve_entry'])) {
+        $entry_id = intval($_POST['entry_id']);
+        $action = 'approve';
+    } elseif (isset($_POST['deny_entry'])) {
+        $entry_id = intval($_POST['entry_id']);
+        $action = 'deny';
+    } elseif (isset($_POST['delete_member'])) {
+        $member_id = intval($_POST['member_id']);
+        $admin_actions->delete_member($member_id);
+        update_member_status($approved_members, $member_id, 'deleted');
     }
-  }
+
+    if ($action) {
+        $method = $action . '_entry';
+        if ($admin_actions->$method($entry_id)) {
+            update_entry_status($entries, $entry_id, $action);
+        }
+    }
 }
 
 function update_entry_status(&$entries, $entry_id, $status) {
-  foreach ($entries as &$entry) {
-    if ($entry['id'] == $entry_id) {
-      $entry['status'] = $status;
-      break;
+    foreach ($entries as &$entry) {
+        if ($entry['id'] == $entry_id) {
+            $entry['status'] = $status;
+            break;
+        }
     }
-  }
 }
 
 function update_member_status(&$members, $member_id, $status) {
-  foreach ($members as &$member) {
-    if ($member->id == $member_id) {
-      $member->status = $status;
-      break;
+    foreach ($members as &$member) {
+        if ($member->id == $member_id) {
+            $member->status = $status;
+            break;
+        }
     }
-  }
 }
 
 echo '<main class="tb-gf-extended">';
