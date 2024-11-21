@@ -9,10 +9,6 @@
 
 namespace TBGravityFormsExtended;
 
-add_action('wp_enqueue_scripts', function() {
-
-});
-
 function run_enqueues() {
   $screen = get_current_screen();
   if ($screen->id === 'tb-tools_page_tb-gravity-forms-extended-plugin') {
